@@ -1,0 +1,25 @@
+.venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Data: keep raw files out of the repo; allow a small README
+data/raw/*
+!data/raw/README.md
+
+# Allow processed files to be added if small, but generally ignore
+data/processed/*
+
+# Figures (generated)
+figures/*
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local settings
+.env
+
+# Mac
+.DS_Store
