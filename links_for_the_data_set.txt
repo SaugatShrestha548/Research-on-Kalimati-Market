@@ -1,0 +1,8 @@
+https://www.investing.com/currencies/usd-npr-historical-data   -- exchange rates 
+https://noc.org.np/retailprice  -- fuel prices
+Source: Compiled from the official monthly Current Macroeconomic and Financial Situation Reports published by the Research Department of the Nepal Rastra Bank (NRB), spanning multiple base-year revisions (2005/06, 2014/15, and 2023/24).  --- CPI data 
+data of fertilizer: https://thedocs.worldbank.org/en/doc/18675f1d1639c7a34d463f59263ba0a2-0050012025/related/CMO-Historical-Data-Monthly.xlsx
+data for crude oil: 
+fred.stlouisfed.org/series/DCOILBRENTEU
+data for kalimati produces: 
+https://kalimatimarket.gov.np/price
