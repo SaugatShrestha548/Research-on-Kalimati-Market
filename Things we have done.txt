@@ -1,3 +1,3 @@
 have cleaned the kalimati data and combined data provided by professor and scraped one
 have done monthly average in kalimati monthly of chosen targeted six produces
-have combined all the data of cpi,crude oil, foreign exchange, fertilizer urea and DAP from 2013/01/07 to 2025/12/1s
+have combined all the data of cpi,crude oil, foreign exchange, fertilizer urea and DAP from 2013/01/07 to 2025/12/1
