@@ -1,0 +1,799 @@
+"","commodity","month_Year","monthly_average"
+"1","Cabbage(Local)",2013-06-01,11.1363636363636
+"2","Cabbage(Local)",2013-07-01,16.2
+"3","Cabbage(Local)",2013-08-01,35.7142857142857
+"4","Cabbage(Local)",2013-09-01,42.36
+"5","Cabbage(Local)",2013-10-01,32.1538461538462
+"6","Cabbage(Local)",2013-11-01,42.304347826087
+"7","Cabbage(Local)",2013-12-01,28.7083333333333
+"8","Cabbage(Local)",2014-01-01,20.0208333333333
+"9","Cabbage(Local)",2014-02-01,19.7608695652174
+"10","Cabbage(Local)",2014-03-01,20.9318181818182
+"11","Cabbage(Local)",2014-04-01,19.5652173913043
+"12","Cabbage(Local)",2014-05-01,21.0869565217391
+"13","Cabbage(Local)",2014-06-01,28.46
+"14","Cabbage(Local)",2014-07-01,31.8225806451613
+"15","Cabbage(Local)",2014-08-01,17.2
+"16","Cabbage(Local)",2014-09-01,14.2678571428571
+"17","Cabbage(Local)",2014-10-01,21.1428571428571
+"18","Cabbage(Local)",2014-11-01,20.1833333333333
+"19","Cabbage(Local)",2014-12-01,15.1
+"20","Cabbage(Local)",2015-01-01,14.4107142857143
+"21","Cabbage(Local)",2015-02-01,12
+"22","Cabbage(Local)",2015-03-01,12.6111111111111
+"23","Cabbage(Local)",2015-04-01,11.0714285714286
+"24","Cabbage(Local)",2015-05-01,7.35
+"25","Cabbage(Local)",2015-06-01,15.0166666666667
+"26","Cabbage(Local)",2015-07-01,32.8064516129032
+"27","Cabbage(Local)",2015-08-01,35.0483870967742
+"28","Cabbage(Local)",2015-09-01,39.5666666666667
+"29","Cabbage(Local)",2015-10-01,44.241935483871
+"30","Cabbage(Local)",2015-11-01,25.5333333333333
+"31","Cabbage(Local)",2015-12-01,20.6774193548387
+"32","Cabbage(Local)",2016-01-01,21.5483870967742
+"33","Cabbage(Local)",2016-02-01,17.9310344827586
+"34","Cabbage(Local)",2016-03-01,17.6034482758621
+"35","Cabbage(Local)",2016-04-01,22.8833333333333
+"36","Cabbage(Local)",2016-05-01,29.4677419354839
+"37","Cabbage(Local)",2016-06-01,32.6166666666667
+"38","Cabbage(Local)",2016-07-01,35.7903225806452
+"39","Cabbage(Local)",2016-08-01,28.4838709677419
+"40","Cabbage(Local)",2016-09-01,23.3166666666667
+"41","Cabbage(Local)",2016-10-01,31.0161290322581
+"42","Cabbage(Local)",2016-11-01,43.0833333333333
+"43","Cabbage(Local)",2016-12-01,24.8387096774194
+"44","Cabbage(Local)",2017-01-01,19.4032258064516
+"45","Cabbage(Local)",2017-02-01,14.1481481481481
+"46","Cabbage(Local)",2017-03-01,13.6551724137931
+"47","Cabbage(Local)",2017-04-01,11.6
+"48","Cabbage(Local)",2017-05-01,14.65
+"49","Cabbage(Local)",2017-06-01,17.1166666666667
+"50","Cabbage(Local)",2017-07-01,15.3387096774194
+"51","Cabbage(Local)",2017-08-01,20.9193548387097
+"52","Cabbage(Local)",2017-09-01,40.8275862068966
+"53","Cabbage(Local)",2017-10-01,47.4354838709677
+"54","Cabbage(Local)",2017-11-01,63.75
+"55","Cabbage(Local)",2017-12-01,32.7708333333333
+"56","Cabbage(Local)",2018-01-01,30.0333333333333
+"57","Cabbage(Local)",2018-02-01,29.875
+"58","Cabbage(Local)",2018-03-01,26.2166666666667
+"59","Cabbage(Local)",2018-04-01,26.7833333333333
+"60","Cabbage(Local)",2018-05-01,25.1451612903226
+"61","Cabbage(Local)",2018-06-01,41.85
+"62","Cabbage(Local)",2018-07-01,41.6935483870968
+"63","Cabbage(Local)",2018-08-01,45.8225806451613
+"64","Cabbage(Local)",2018-09-01,50.4666666666667
+"65","Cabbage(Local)",2018-10-01,34.6774193548387
+"66","Cabbage(Local)",2018-11-01,22
+"67","Cabbage(Local)",2018-12-01,12.1451612903226
+"68","Cabbage(Local)",2019-01-01,10.7903225806452
+"69","Cabbage(Local)",2019-02-01,10.125
+"70","Cabbage(Local)",2019-03-01,11.6
+"71","Cabbage(Local)",2019-04-01,11.4333333333333
+"72","Cabbage(Local)",2019-05-01,15.6612903225806
+"73","Cabbage(Local)",2019-06-01,28.7666666666667
+"74","Cabbage(Local)",2019-07-01,29.1612903225806
+"75","Cabbage(Local)",2019-08-01,34.9193548387097
+"76","Cabbage(Local)",2019-09-01,44.5
+"77","Cabbage(Local)",2019-10-01,48.6290322580645
+"78","Cabbage(Local)",2019-11-01,69.9166666666667
+"79","Cabbage(Local)",2019-12-01,42.5806451612903
+"80","Cabbage(Local)",2020-01-01,40
+"81","Cabbage(Local)",2020-02-01,29.3793103448276
+"82","Cabbage(Local)",2020-03-01,22.2068965517241
+"83","Cabbage(Local)",2020-04-01,19.1666666666667
+"84","Cabbage(Local)",2020-05-01,8.82258064516129
+"85","Cabbage(Local)",2020-06-01,11.0344827586207
+"86","Cabbage(Local)",2020-07-01,22.4166666666667
+"87","Cabbage(Local)",2020-08-01,36.5322580645161
+"88","Cabbage(Local)",2020-09-01,60
+"89","Cabbage(Local)",2020-10-01,58.4677419354839
+"90","Cabbage(Local)",2020-11-01,53.9166666666667
+"91","Cabbage(Local)",2020-12-01,31.5967741935484
+"92","Cabbage(Local)",2021-01-01,23.3064516129032
+"93","Cabbage(Local)",2021-02-01,16.9107142857143
+"94","Cabbage(Local)",2021-03-01,12.8166666666667
+"95","Cabbage(Local)",2021-04-01,29.3666666666667
+"96","Cabbage(Local)",2021-05-01,29.5
+"97","Cabbage(Local)",2021-06-01,32.5
+"98","Cabbage(Local)",2021-07-01,32.5
+"99","Cabbage(Local)",2021-08-01,32.5
+"100","Cabbage(Local)",2021-09-01,32.5
+"101","Cabbage(Local)",2021-10-01,32.5
+"102","Cabbage(Local)",2021-11-01,32.5
+"103","Cabbage(Local)",2021-12-01,32.5
+"104","Cabbage(Local)",2022-01-01,32.5
+"105","Cabbage(Local)",2022-02-01,32.5
+"106","Cabbage(Local)",2022-03-01,32.5
+"107","Cabbage(Local)",2022-04-01,32.5
+"108","Cabbage(Local)",2022-05-01,32.5
+"109","Cabbage(Local)",2022-06-01,32.5
+"110","Cabbage(Local)",2022-07-01,32.5
+"111","Cabbage(Local)",2022-08-01,32.5
+"112","Cabbage(Local)",2022-09-01,32.5
+"113","Cabbage(Local)",2022-10-01,32.5
+"114","Cabbage(Local)",2022-11-01,32.5
+"115","Cabbage(Local)",2022-12-01,32.5
+"116","Cabbage(Local)",2023-01-01,32.5
+"117","Cabbage(Local)",2023-02-01,32.5
+"118","Cabbage(Local)",2023-03-01,32.5
+"119","Cabbage(Local)",2023-04-01,32.5
+"120","Cabbage(Local)",2023-05-01,32.5
+"121","Cabbage(Local)",2023-06-01,32.5
+"122","Cabbage(Local)",2023-07-01,32.5
+"123","Cabbage(Local)",2023-08-01,32.5
+"124","Cabbage(Local)",2023-09-01,32.5
+"125","Cabbage(Local)",2023-10-01,32.5
+"126","Cabbage(Local)",2023-11-01,32.5
+"127","Cabbage(Local)",2023-12-01,32.5
+"128","Cabbage(Local)",2024-01-01,32.5
+"129","Cabbage(Local)",2024-02-01,32.5
+"130","Cabbage(Local)",2024-03-01,32.5
+"131","Cabbage(Local)",2024-04-01,32.5
+"132","Cabbage(Local)",2024-05-01,32.5
+"133","Cabbage(Local)",2024-06-01,32.5
+"134","Cabbage(Local)",2024-07-01,32.5
+"135","Cabbage(Local)",2024-08-01,32.5
+"136","Cabbage(Local)",2024-09-01,32.5
+"137","Cabbage(Local)",2024-10-01,32.5
+"138","Cabbage(Local)",2024-11-01,32.5
+"139","Cabbage(Local)",2024-12-01,32.5
+"140","Cabbage(Local)",2025-01-01,32.5
+"141","Cabbage(Local)",2025-02-01,32.5
+"142","Cabbage(Local)",2025-03-01,32.5
+"143","Cabbage(Local)",2025-04-01,32.5
+"144","Cabbage(Local)",2025-05-01,32.5
+"145","Cabbage(Local)",2025-06-01,32.5
+"146","Cabbage(Local)",2025-07-01,32.5
+"147","Cabbage(Local)",2025-08-01,32.5
+"148","Cabbage(Local)",2025-09-01,32.5
+"149","Cabbage(Local)",2025-10-01,32.5
+"150","Cabbage(Local)",2025-11-01,32.5
+"151","Cabbage(Local)",2025-12-01,32.5
+"152","Cabbage(Local)",2026-01-01,32.5
+"153","Cabbage(Local)",2026-02-01,32.5
+"154","Cabbage(Local)",2026-03-01,32.5
+"155","Cabbage(Local)",2026-04-01,32.5
+"156","Cabbage(Local)",2026-05-01,32.5
+"157","Garlic Dry Chinese",2013-06-01,101.590909090909
+"158","Garlic Dry Chinese",2013-07-01,89.7
+"159","Garlic Dry Chinese",2013-08-01,80.25
+"160","Garlic Dry Chinese",2013-09-01,105.9
+"161","Garlic Dry Chinese",2013-10-01,104.074074074074
+"162","Garlic Dry Chinese",2013-11-01,96.7708333333333
+"163","Garlic Dry Chinese",2013-12-01,103.125
+"164","Garlic Dry Chinese",2014-01-01,100.208333333333
+"165","Garlic Dry Chinese",2014-02-01,92.7608695652174
+"166","Garlic Dry Chinese",2014-03-01,111.590909090909
+"167","Garlic Dry Chinese",2014-04-01,110.760869565217
+"168","Garlic Dry Chinese",2014-05-01,101.586956521739
+"169","Garlic Dry Chinese",2014-06-01,94.2
+"170","Garlic Dry Chinese",2014-07-01,106.741935483871
+"171","Garlic Dry Chinese",2014-08-01,111.866666666667
+"172","Garlic Dry Chinese",2014-09-01,109.982142857143
+"173","Garlic Dry Chinese",2014-10-01,120.931818181818
+"174","Garlic Dry Chinese",2014-11-01,118.233333333333
+"175","Garlic Dry Chinese",2014-12-01,121.6
+"176","Garlic Dry Chinese",2015-01-01,121.732142857143
+"177","Garlic Dry Chinese",2015-02-01,132.54
+"178","Garlic Dry Chinese",2015-03-01,132.5
+"179","Garlic Dry Chinese",2015-04-01,133.071428571429
+"180","Garlic Dry Chinese",2015-05-01,136.416666666667
+"181","Garlic Dry Chinese",2015-06-01,135.766666666667
+"182","Garlic Dry Chinese",2015-07-01,152.983870967742
+"183","Garlic Dry Chinese",2015-08-01,166.548387096774
+"184","Garlic Dry Chinese",2015-09-01,174.066666666667
+"185","Garlic Dry Chinese",2015-10-01,182.338709677419
+"186","Garlic Dry Chinese",2015-11-01,177.666666666667
+"187","Garlic Dry Chinese",2015-12-01,224.274193548387
+"188","Garlic Dry Chinese",2016-01-01,256.048387096774
+"189","Garlic Dry Chinese",2016-02-01,248.103448275862
+"190","Garlic Dry Chinese",2016-03-01,245
+"191","Garlic Dry Chinese",2016-04-01,285.75
+"192","Garlic Dry Chinese",2016-05-01,280.483870967742
+"193","Garlic Dry Chinese",2016-06-01,312.083333333333
+"194","Garlic Dry Chinese",2016-07-01,315
+"195","Garlic Dry Chinese",2016-08-01,302.258064516129
+"196","Garlic Dry Chinese",2016-09-01,294.333333333333
+"197","Garlic Dry Chinese",2016-10-01,305
+"198","Garlic Dry Chinese",2016-11-01,323
+"199","Garlic Dry Chinese",2016-12-01,339.516129032258
+"200","Garlic Dry Chinese",2017-01-01,346.129032258065
+"201","Garlic Dry Chinese",2017-02-01,345
+"202","Garlic Dry Chinese",2017-03-01,298.275862068966
+"203","Garlic Dry Chinese",2017-04-01,303.166666666667
+"204","Garlic Dry Chinese",2017-05-01,382.833333333333
+"205","Garlic Dry Chinese",2017-06-01,287.833333333333
+"206","Garlic Dry Chinese",2017-07-01,195
+"207","Garlic Dry Chinese",2017-08-01,180.161290322581
+"208","Garlic Dry Chinese",2017-09-01,175
+"209","Garlic Dry Chinese",2017-10-01,175
+"210","Garlic Dry Chinese",2017-11-01,164.333333333333
+"211","Garlic Dry Chinese",2017-12-01,146.5625
+"212","Garlic Dry Chinese",2018-01-01,161
+"213","Garlic Dry Chinese",2018-02-01,175.803571428571
+"214","Garlic Dry Chinese",2018-03-01,186.666666666667
+"215","Garlic Dry Chinese",2018-04-01,149
+"216","Garlic Dry Chinese",2018-05-01,132.741935483871
+"217","Garlic Dry Chinese",2018-06-01,127.333333333333
+"218","Garlic Dry Chinese",2018-07-01,129.516129032258
+"219","Garlic Dry Chinese",2018-08-01,125
+"220","Garlic Dry Chinese",2018-09-01,125
+"221","Garlic Dry Chinese",2018-10-01,125
+"222","Garlic Dry Chinese",2018-11-01,125
+"223","Garlic Dry Chinese",2018-12-01,128.870967741935
+"224","Garlic Dry Chinese",2019-01-01,155
+"225","Garlic Dry Chinese",2019-02-01,159.285714285714
+"226","Garlic Dry Chinese",2019-03-01,176.034482758621
+"227","Garlic Dry Chinese",2019-04-01,176
+"228","Garlic Dry Chinese",2019-05-01,175
+"229","Garlic Dry Chinese",2019-06-01,196.25
+"230","Garlic Dry Chinese",2019-07-01,231.774193548387
+"231","Garlic Dry Chinese",2019-08-01,233.709677419355
+"232","Garlic Dry Chinese",2019-09-01,196
+"233","Garlic Dry Chinese",2019-10-01,195
+"234","Garlic Dry Chinese",2019-11-01,195
+"235","Garlic Dry Chinese",2019-12-01,202.741935483871
+"236","Garlic Dry Chinese",2020-01-01,297.258064516129
+"237","Garlic Dry Chinese",2020-02-01,494.705882352941
+"238","Garlic Dry Chinese",2020-03-01,438.75
+"239","Garlic Dry Chinese",2020-04-01,370.208333333333
+"240","Garlic Dry Chinese",2020-05-01,327.903225806452
+"241","Garlic Dry Chinese",2020-06-01,161.833333333333
+"242","Garlic Dry Chinese",2020-07-01,188.333333333333
+"243","Garlic Dry Chinese",2020-08-01,175.322580645161
+"244","Garlic Dry Chinese",2020-09-01,169
+"245","Garlic Dry Chinese",2020-10-01,165.887096774194
+"246","Garlic Dry Chinese",2020-11-01,164.75
+"247","Garlic Dry Chinese",2020-12-01,172.833333333333
+"248","Garlic Dry Chinese",2021-01-01,234.032258064516
+"249","Garlic Dry Chinese",2021-02-01,282.678571428571
+"250","Garlic Dry Chinese",2021-03-01,173.5
+"251","Garlic Dry Chinese",2021-04-01,151.333333333333
+"252","Garlic Dry Chinese",2021-05-01,211.1
+"253","Garlic Dry Chinese",2021-06-01,175
+"254","Garlic Dry Chinese",2021-07-01,175
+"255","Garlic Dry Chinese",2021-08-01,175
+"256","Garlic Dry Chinese",2021-09-01,175
+"257","Garlic Dry Chinese",2021-10-01,175
+"258","Garlic Dry Chinese",2021-11-01,175
+"259","Garlic Dry Chinese",2021-12-01,175
+"260","Garlic Dry Chinese",2022-01-01,175
+"261","Garlic Dry Chinese",2022-02-01,175
+"262","Garlic Dry Chinese",2022-03-01,175
+"263","Garlic Dry Chinese",2022-04-01,175
+"264","Garlic Dry Chinese",2022-05-01,175
+"265","Garlic Dry Chinese",2022-06-01,175
+"266","Garlic Dry Chinese",2022-07-01,175
+"267","Garlic Dry Chinese",2022-08-01,175
+"268","Garlic Dry Chinese",2022-09-01,175
+"269","Garlic Dry Chinese",2022-10-01,175
+"270","Garlic Dry Chinese",2022-11-01,175
+"271","Garlic Dry Chinese",2022-12-01,175
+"272","Garlic Dry Chinese",2023-01-01,175
+"273","Garlic Dry Chinese",2023-02-01,175
+"274","Garlic Dry Chinese",2023-03-01,175
+"275","Garlic Dry Chinese",2023-04-01,175
+"276","Garlic Dry Chinese",2023-05-01,175
+"277","Garlic Dry Chinese",2023-06-01,175
+"278","Garlic Dry Chinese",2023-07-01,175
+"279","Garlic Dry Chinese",2023-08-01,175
+"280","Garlic Dry Chinese",2023-09-01,175
+"281","Garlic Dry Chinese",2023-10-01,175
+"282","Garlic Dry Chinese",2023-11-01,175
+"283","Garlic Dry Chinese",2023-12-01,175
+"284","Garlic Dry Chinese",2024-01-01,175
+"285","Garlic Dry Chinese",2024-02-01,175
+"286","Garlic Dry Chinese",2024-03-01,175
+"287","Garlic Dry Chinese",2024-04-01,175
+"288","Garlic Dry Chinese",2024-05-01,175
+"289","Garlic Dry Chinese",2024-06-01,175
+"290","Garlic Dry Chinese",2024-07-01,175
+"291","Garlic Dry Chinese",2024-08-01,175
+"292","Garlic Dry Chinese",2024-09-01,175
+"293","Garlic Dry Chinese",2024-10-01,175
+"294","Garlic Dry Chinese",2024-11-01,175
+"295","Garlic Dry Chinese",2024-12-01,175
+"296","Garlic Dry Chinese",2025-01-01,175
+"297","Garlic Dry Chinese",2025-02-01,175
+"298","Garlic Dry Chinese",2025-03-01,175
+"299","Garlic Dry Chinese",2025-04-01,175
+"300","Garlic Dry Chinese",2025-05-01,175
+"301","Garlic Dry Chinese",2025-06-01,175
+"302","Garlic Dry Chinese",2025-07-01,175
+"303","Garlic Dry Chinese",2025-08-01,175
+"304","Garlic Dry Chinese",2025-09-01,175
+"305","Garlic Dry Chinese",2025-10-01,175
+"306","Garlic Dry Chinese",2025-11-01,175
+"307","Garlic Dry Chinese",2025-12-01,175
+"308","Garlic Dry Chinese",2026-01-01,175
+"309","Garlic Dry Chinese",2026-02-01,175
+"310","Garlic Dry Chinese",2026-03-01,175
+"311","Garlic Dry Chinese",2026-04-01,175
+"312","Garlic Dry Chinese",2026-05-01,175
+"313","Onion Dry (Indian)",2013-06-01,34.0909090909091
+"314","Onion Dry (Indian)",2013-07-01,47.22
+"315","Onion Dry (Indian)",2013-08-01,74
+"316","Onion Dry (Indian)",2013-09-01,90.14
+"317","Onion Dry (Indian)",2013-10-01,99.1296296296296
+"318","Onion Dry (Indian)",2013-11-01,89.6041666666667
+"319","Onion Dry (Indian)",2013-12-01,42.5833333333333
+"320","Onion Dry (Indian)",2014-01-01,31.875
+"321","Onion Dry (Indian)",2014-02-01,26.695652173913
+"322","Onion Dry (Indian)",2014-03-01,28.5227272727273
+"323","Onion Dry (Indian)",2014-04-01,28.6304347826087
+"324","Onion Dry (Indian)",2014-05-01,28.7391304347826
+"325","Onion Dry (Indian)",2014-06-01,33.8
+"326","Onion Dry (Indian)",2014-07-01,46.1451612903226
+"327","Onion Dry (Indian)",2014-08-01,41.9166666666667
+"328","Onion Dry (Indian)",2014-09-01,38.875
+"329","Onion Dry (Indian)",2014-10-01,39.5681818181818
+"330","Onion Dry (Indian)",2014-11-01,40.4666666666667
+"331","Onion Dry (Indian)",2014-12-01,41.1333333333333
+"332","Onion Dry (Indian)",2015-01-01,36.9821428571429
+"333","Onion Dry (Indian)",2015-02-01,40.14
+"334","Onion Dry (Indian)",2015-03-01,36.8333333333333
+"335","Onion Dry (Indian)",2015-04-01,34.625
+"336","Onion Dry (Indian)",2015-05-01,36.6166666666667
+"337","Onion Dry (Indian)",2015-06-01,40.7666666666667
+"338","Onion Dry (Indian)",2015-07-01,47.1290322580645
+"339","Onion Dry (Indian)",2015-08-01,83.3870967741936
+"340","Onion Dry (Indian)",2015-09-01,101.133333333333
+"341","Onion Dry (Indian)",2015-10-01,92.4354838709677
+"342","Onion Dry (Indian)",2015-11-01,61.45
+"343","Onion Dry (Indian)",2015-12-01,39.0483870967742
+"344","Onion Dry (Indian)",2016-01-01,34.2903225806452
+"345","Onion Dry (Indian)",2016-02-01,26.0689655172414
+"346","Onion Dry (Indian)",2016-03-01,25.1551724137931
+"347","Onion Dry (Indian)",2016-04-01,25.0166666666667
+"348","Onion Dry (Indian)",2016-05-01,23.1129032258065
+"349","Onion Dry (Indian)",2016-06-01,22.7
+"350","Onion Dry (Indian)",2016-07-01,25.9032258064516
+"351","Onion Dry (Indian)",2016-08-01,25
+"352","Onion Dry (Indian)",2016-09-01,23.0833333333333
+"353","Onion Dry (Indian)",2016-10-01,22.3064516129032
+"354","Onion Dry (Indian)",2016-11-01,26.4333333333333
+"355","Onion Dry (Indian)",2016-12-01,26.0161290322581
+"356","Onion Dry (Indian)",2017-01-01,25.8064516129032
+"357","Onion Dry (Indian)",2017-02-01,23.5185185185185
+"358","Onion Dry (Indian)",2017-03-01,23.9137931034483
+"359","Onion Dry (Indian)",2017-04-01,23.75
+"360","Onion Dry (Indian)",2017-05-01,21.0666666666667
+"361","Onion Dry (Indian)",2017-06-01,22.6333333333333
+"362","Onion Dry (Indian)",2017-07-01,24.9354838709677
+"363","Onion Dry (Indian)",2017-08-01,49.1290322580645
+"364","Onion Dry (Indian)",2017-09-01,41.6206896551724
+"365","Onion Dry (Indian)",2017-10-01,54.9677419354839
+"366","Onion Dry (Indian)",2017-11-01,72.3666666666667
+"367","Onion Dry (Indian)",2017-12-01,83.7291666666667
+"368","Onion Dry (Indian)",2018-01-01,77.6
+"369","Onion Dry (Indian)",2018-02-01,50.625
+"370","Onion Dry (Indian)",2018-03-01,33.4666666666667
+"371","Onion Dry (Indian)",2018-04-01,25.55
+"372","Onion Dry (Indian)",2018-05-01,24.3064516129032
+"373","Onion Dry (Indian)",2018-06-01,28.5833333333333
+"374","Onion Dry (Indian)",2018-07-01,35.4838709677419
+"375","Onion Dry (Indian)",2018-08-01,33.0806451612903
+"376","Onion Dry (Indian)",2018-09-01,30.4833333333333
+"377","Onion Dry (Indian)",2018-10-01,36.4032258064516
+"378","Onion Dry (Indian)",2018-11-01,35.5
+"379","Onion Dry (Indian)",2018-12-01,29.0967741935484
+"380","Onion Dry (Indian)",2019-01-01,25.8387096774194
+"381","Onion Dry (Indian)",2019-02-01,22.1607142857143
+"382","Onion Dry (Indian)",2019-03-01,23.4166666666667
+"383","Onion Dry (Indian)",2019-04-01,25.3333333333333
+"384","Onion Dry (Indian)",2019-05-01,26.5
+"385","Onion Dry (Indian)",2019-06-01,32.3166666666667
+"386","Onion Dry (Indian)",2019-07-01,37.0645161290323
+"387","Onion Dry (Indian)",2019-08-01,45.0161290322581
+"388","Onion Dry (Indian)",2019-09-01,78.15
+"389","Onion Dry (Indian)",2019-10-01,96.0161290322581
+"390","Onion Dry (Indian)",2019-11-01,144.883333333333
+"391","Onion Dry (Indian)",2019-12-01,179.375
+"392","Onion Dry (Indian)",2020-01-01,120.790322580645
+"393","Onion Dry (Indian)",2020-02-01,77.448275862069
+"394","Onion Dry (Indian)",2020-03-01,58.6206896551724
+"395","Onion Dry (Indian)",2020-04-01,36.3125
+"396","Onion Dry (Indian)",2020-05-01,26.6333333333333
+"397","Onion Dry (Indian)",2020-06-01,28.8666666666667
+"398","Onion Dry (Indian)",2020-07-01,31.2666666666667
+"399","Onion Dry (Indian)",2020-08-01,34.0645161290323
+"400","Onion Dry (Indian)",2020-09-01,78.4655172413793
+"401","Onion Dry (Indian)",2020-10-01,118.793103448276
+"402","Onion Dry (Indian)",2020-11-01,110.933333333333
+"403","Onion Dry (Indian)",2020-12-01,85.1129032258064
+"404","Onion Dry (Indian)",2021-01-01,66.5322580645161
+"405","Onion Dry (Indian)",2021-02-01,77.1428571428571
+"406","Onion Dry (Indian)",2021-03-01,46.8166666666667
+"407","Onion Dry (Indian)",2021-04-01,36.25
+"408","Onion Dry (Indian)",2021-05-01,37.64
+"409","Onion Dry (Indian)",2021-06-01,36.5
+"410","Onion Dry (Indian)",2021-07-01,36.5
+"411","Onion Dry (Indian)",2021-08-01,36.5
+"412","Onion Dry (Indian)",2021-09-01,36.5
+"413","Onion Dry (Indian)",2021-10-01,36.5
+"414","Onion Dry (Indian)",2021-11-01,36.5
+"415","Onion Dry (Indian)",2021-12-01,36.5
+"416","Onion Dry (Indian)",2022-01-01,36.5
+"417","Onion Dry (Indian)",2022-02-01,36.5
+"418","Onion Dry (Indian)",2022-03-01,36.5
+"419","Onion Dry (Indian)",2022-04-01,36.5
+"420","Onion Dry (Indian)",2022-05-01,36.5
+"421","Onion Dry (Indian)",2022-06-01,36.5
+"422","Onion Dry (Indian)",2022-07-01,36.5
+"423","Onion Dry (Indian)",2022-08-01,36.5
+"424","Onion Dry (Indian)",2022-09-01,36.5
+"425","Onion Dry (Indian)",2022-10-01,36.5
+"426","Onion Dry (Indian)",2022-11-01,36.5
+"427","Onion Dry (Indian)",2022-12-01,36.5
+"428","Onion Dry (Indian)",2023-01-01,36.5
+"429","Onion Dry (Indian)",2023-02-01,36.5
+"430","Onion Dry (Indian)",2023-03-01,36.5
+"431","Onion Dry (Indian)",2023-04-01,36.5
+"432","Onion Dry (Indian)",2023-05-01,36.5
+"433","Onion Dry (Indian)",2023-06-01,36.5
+"434","Onion Dry (Indian)",2023-07-01,36.5
+"435","Onion Dry (Indian)",2023-08-01,36.5
+"436","Onion Dry (Indian)",2023-09-01,36.5
+"437","Onion Dry (Indian)",2023-10-01,36.5
+"438","Onion Dry (Indian)",2023-11-01,36.5
+"439","Onion Dry (Indian)",2023-12-01,36.5
+"440","Onion Dry (Indian)",2024-01-01,36.5
+"441","Onion Dry (Indian)",2024-02-01,36.5
+"442","Onion Dry (Indian)",2024-03-01,36.5
+"443","Onion Dry (Indian)",2024-04-01,36.5
+"444","Onion Dry (Indian)",2024-05-01,36.5
+"445","Onion Dry (Indian)",2024-06-01,36.5
+"446","Onion Dry (Indian)",2024-07-01,36.5
+"447","Onion Dry (Indian)",2024-08-01,36.5
+"448","Onion Dry (Indian)",2024-09-01,36.5
+"449","Onion Dry (Indian)",2024-10-01,36.5
+"450","Onion Dry (Indian)",2024-11-01,36.5
+"451","Onion Dry (Indian)",2024-12-01,36.5
+"452","Onion Dry (Indian)",2025-01-01,36.5
+"453","Onion Dry (Indian)",2025-02-01,36.5
+"454","Onion Dry (Indian)",2025-03-01,36.5
+"455","Onion Dry (Indian)",2025-04-01,36.5
+"456","Onion Dry (Indian)",2025-05-01,36.5
+"457","Onion Dry (Indian)",2025-06-01,36.5
+"458","Onion Dry (Indian)",2025-07-01,36.5
+"459","Onion Dry (Indian)",2025-08-01,36.5
+"460","Onion Dry (Indian)",2025-09-01,36.5
+"461","Onion Dry (Indian)",2025-10-01,36.5
+"462","Onion Dry (Indian)",2025-11-01,36.5
+"463","Onion Dry (Indian)",2025-12-01,36.5
+"464","Onion Dry (Indian)",2026-01-01,36.5
+"465","Onion Dry (Indian)",2026-02-01,36.5
+"466","Onion Dry (Indian)",2026-03-01,36.5
+"467","Onion Dry (Indian)",2026-04-01,36.5
+"468","Onion Dry (Indian)",2026-05-01,36.5
+"469","Potato Red",2013-06-01,21.7727272727273
+"470","Potato Red",2013-07-01,23.48
+"471","Potato Red",2013-08-01,28.1428571428571
+"472","Potato Red",2013-09-01,30.36
+"473","Potato Red",2013-10-01,36.7777777777778
+"474","Potato Red",2013-11-01,39.2916666666667
+"475","Potato Red",2013-12-01,30.8958333333333
+"476","Potato Red",2014-01-01,23.6875
+"477","Potato Red",2014-02-01,19.1521739130435
+"478","Potato Red",2014-03-01,22.4772727272727
+"479","Potato Red",2014-04-01,26.0869565217391
+"480","Potato Red",2014-05-01,28.4782608695652
+"481","Potato Red",2014-06-01,36.36
+"482","Potato Red",2014-07-01,39.6774193548387
+"483","Potato Red",2014-08-01,46.1833333333333
+"484","Potato Red",2014-09-01,46.2321428571429
+"485","Potato Red",2014-10-01,51.0227272727273
+"486","Potato Red",2014-11-01,42.75
+"487","Potato Red",2014-12-01,29.6166666666667
+"488","Potato Red",2015-01-01,21.1785714285714
+"489","Potato Red",2015-02-01,19.06
+"490","Potato Red",2015-03-01,18.2037037037037
+"491","Potato Red",2015-04-01,17.3392857142857
+"492","Potato Red",2015-05-01,17.15
+"493","Potato Red",2015-06-01,20.5
+"494","Potato Red",2015-07-01,23.3387096774194
+"495","Potato Red",2015-08-01,28.5161290322581
+"496","Potato Red",2015-09-01,32.85
+"497","Potato Red",2015-10-01,36.8548387096774
+"498","Potato Red",2015-11-01,31.6
+"499","Potato Red",2015-12-01,28.1290322580645
+"500","Potato Red",2016-01-01,28.0161290322581
+"501","Potato Red",2016-02-01,22.5689655172414
+"502","Potato Red",2016-03-01,22.4827586206897
+"503","Potato Red",2016-04-01,25.05
+"504","Potato Red",2016-05-01,33.8225806451613
+"505","Potato Red",2016-06-01,35.3
+"506","Potato Red",2016-07-01,37.8709677419355
+"507","Potato Red",2016-08-01,40.8064516129032
+"508","Potato Red",2016-09-01,37.3
+"509","Potato Red",2016-10-01,36.7903225806452
+"510","Potato Red",2016-11-01,41.6166666666667
+"511","Potato Red",2016-12-01,30.7096774193548
+"512","Potato Red",2017-01-01,25.741935483871
+"513","Potato Red",2017-02-01,20.4444444444444
+"514","Potato Red",2017-03-01,17.1379310344828
+"515","Potato Red",2017-04-01,19.8666666666667
+"516","Potato Red",2017-05-01,21
+"517","Potato Red",2017-06-01,22.5333333333333
+"518","Potato Red",2017-07-01,25.7258064516129
+"519","Potato Red",2017-08-01,31.9838709677419
+"520","Potato Red",2017-09-01,31.3275862068966
+"521","Potato Red",2017-10-01,36.1612903225806
+"522","Potato Red",2017-11-01,38.6333333333333
+"523","Potato Red",2017-12-01,34.6875
+"524","Potato Red",2018-01-01,27.45
+"525","Potato Red",2018-02-01,21.4464285714286
+"526","Potato Red",2018-03-01,23.6333333333333
+"527","Potato Red",2018-04-01,31.35
+"528","Potato Red",2018-05-01,29.1612903225806
+"529","Potato Red",2018-06-01,33.2666666666667
+"530","Potato Red",2018-07-01,40.1612903225806
+"531","Potato Red",2018-08-01,45.1451612903226
+"532","Potato Red",2018-09-01,53.25
+"533","Potato Red",2018-10-01,59.1774193548387
+"534","Potato Red",2018-11-01,51.6666666666667
+"535","Potato Red",2018-12-01,39.6451612903226
+"536","Potato Red",2019-01-01,29.8387096774194
+"537","Potato Red",2019-02-01,22.0357142857143
+"538","Potato Red",2019-03-01,22.0833333333333
+"539","Potato Red",2019-04-01,25.0333333333333
+"540","Potato Red",2019-05-01,27.0161290322581
+"541","Potato Red",2019-06-01,32.15
+"542","Potato Red",2019-07-01,38.1333333333333
+"543","Potato Red",2019-08-01,40.9677419354839
+"544","Potato Red",2019-09-01,51.4166666666667
+"545","Potato Red",2019-10-01,63.3064516129032
+"546","Potato Red",2019-11-01,49.3333333333333
+"547","Potato Red",2019-12-01,51.5967741935484
+"548","Potato Red",2020-01-01,46.037037037037
+"549","Potato Red",2020-02-01,34.1551724137931
+"550","Potato Red",2020-03-01,32.7241379310345
+"551","Potato Red",2020-04-01,35.375
+"552","Potato Red",2020-05-01,31
+"553","Potato Red",2020-06-01,35.5166666666667
+"554","Potato Red",2020-07-01,56.2
+"555","Potato Red",2020-08-01,67.7096774193548
+"556","Potato Red",2020-09-01,89.7666666666667
+"557","Potato Red",2020-10-01,99.2068965517241
+"558","Potato Red",2020-11-01,75.6833333333333
+"559","Potato Red",2020-12-01,60.0806451612903
+"560","Potato Red",2021-01-01,34.4354838709677
+"561","Potato Red",2021-02-01,26.8392857142857
+"562","Potato Red",2021-03-01,27.7833333333333
+"563","Potato Red",2021-04-01,34.0833333333333
+"564","Potato Red",2021-05-01,38.8461538461538
+"565","Tomato Big(Indian)",2019-06-01,83.3333333333333
+"566","Tomato Big(Indian)",2019-07-01,82.8448275862069
+"567","Tomato Big(Indian)",2019-08-01,79.6774193548387
+"568","Tomato Big(Indian)",2019-09-01,53.4166666666667
+"569","Tomato Big(Indian)",2019-10-01,80.0833333333333
+"570","Tomato Big(Indian)",2019-11-01,71.75
+"571","Tomato Big(Indian)",2019-12-01,54.3548387096774
+"572","Tomato Big(Indian)",2020-01-01,64.6774193548387
+"573","Tomato Big(Indian)",2020-02-01,48.5344827586207
+"574","Tomato Big(Indian)",2020-03-01,48.2758620689655
+"575","Tomato Big(Indian)",2020-04-01,38.5
+"576","Tomato Big(Indian)",2020-08-01,77.5
+"577","Tomato Big(Indian)",2020-10-01,81.25
+"578","Tomato Big(Indian)",2020-11-01,64.1666666666667
+"579","Tomato Big(Indian)",2020-12-01,61.0833333333333
+"580","Tomato Big(Indian)",2021-01-01,46.1290322580645
+"581","Tomato Big(Indian)",2021-02-01,49.375
+"582","Tomato Big(Indian)",2021-03-01,47.5862068965517
+"583","Tomato Big(Indian)",2021-04-01,52.3333333333333
+"584","Tomato Big(Indian)",2021-05-01,54.0625
+"585","Tomato Big(Indian)",2021-06-01,65
+"586","Tomato Big(Indian)",2021-07-01,65
+"587","Tomato Big(Indian)",2021-08-01,65
+"588","Tomato Big(Indian)",2021-09-01,65
+"589","Tomato Big(Indian)",2021-10-01,65
+"590","Tomato Big(Indian)",2021-11-01,65
+"591","Tomato Big(Indian)",2021-12-01,65
+"592","Tomato Big(Indian)",2022-01-01,65
+"593","Tomato Big(Indian)",2022-02-01,65
+"594","Tomato Big(Indian)",2022-03-01,65
+"595","Tomato Big(Indian)",2022-04-01,65
+"596","Tomato Big(Indian)",2022-05-01,65
+"597","Tomato Big(Indian)",2022-06-01,65
+"598","Tomato Big(Indian)",2022-07-01,65
+"599","Tomato Big(Indian)",2022-08-01,65
+"600","Tomato Big(Indian)",2022-09-01,65
+"601","Tomato Big(Indian)",2022-10-01,65
+"602","Tomato Big(Indian)",2022-11-01,65
+"603","Tomato Big(Indian)",2022-12-01,65
+"604","Tomato Big(Indian)",2023-01-01,65
+"605","Tomato Big(Indian)",2023-02-01,65
+"606","Tomato Big(Indian)",2023-03-01,65
+"607","Tomato Big(Indian)",2023-04-01,65
+"608","Tomato Big(Indian)",2023-05-01,65
+"609","Tomato Big(Indian)",2023-06-01,65
+"610","Tomato Big(Indian)",2023-07-01,65
+"611","Tomato Big(Indian)",2023-08-01,65
+"612","Tomato Big(Indian)",2023-09-01,65
+"613","Tomato Big(Indian)",2023-10-01,65
+"614","Tomato Big(Indian)",2023-11-01,65
+"615","Tomato Big(Indian)",2023-12-01,65
+"616","Tomato Big(Indian)",2024-01-01,65
+"617","Tomato Big(Indian)",2024-02-01,65
+"618","Tomato Big(Indian)",2024-03-01,65
+"619","Tomato Big(Indian)",2024-04-01,65
+"620","Tomato Big(Indian)",2024-05-01,65
+"621","Tomato Big(Indian)",2024-06-01,65
+"622","Tomato Big(Indian)",2024-07-01,65
+"623","Tomato Big(Indian)",2024-08-01,65
+"624","Tomato Big(Indian)",2024-09-01,65
+"625","Tomato Big(Indian)",2024-10-01,65
+"626","Tomato Big(Indian)",2024-11-01,65
+"627","Tomato Big(Indian)",2024-12-01,65
+"628","Tomato Big(Indian)",2025-01-01,65
+"629","Tomato Big(Indian)",2025-02-01,65
+"630","Tomato Big(Indian)",2025-03-01,65
+"631","Tomato Big(Indian)",2025-04-01,65
+"632","Tomato Big(Indian)",2025-05-01,65
+"633","Tomato Big(Indian)",2025-06-01,65
+"634","Tomato Big(Indian)",2025-07-01,65
+"635","Tomato Big(Indian)",2025-08-01,65
+"636","Tomato Big(Indian)",2025-09-01,65
+"637","Tomato Big(Indian)",2025-10-01,65
+"638","Tomato Big(Indian)",2025-11-01,65
+"639","Tomato Big(Indian)",2025-12-01,65
+"640","Tomato Big(Indian)",2026-01-01,65
+"641","Tomato Big(Indian)",2026-02-01,65
+"642","Tomato Big(Indian)",2026-03-01,65
+"643","Tomato Big(Indian)",2026-04-01,65
+"644","Tomato Big(Indian)",2026-05-01,65
+"645","Tomato Big(Nepali)",2013-06-01,30.2272727272727
+"646","Tomato Big(Nepali)",2013-07-01,54.7
+"647","Tomato Big(Nepali)",2013-08-01,43.5238095238095
+"648","Tomato Big(Nepali)",2013-09-01,40.3
+"649","Tomato Big(Nepali)",2013-10-01,50.462962962963
+"650","Tomato Big(Nepali)",2013-11-01,83.8541666666667
+"651","Tomato Big(Nepali)",2013-12-01,51.25
+"652","Tomato Big(Nepali)",2014-01-01,35.8333333333333
+"653","Tomato Big(Nepali)",2014-02-01,32
+"654","Tomato Big(Nepali)",2014-03-01,36.3409090909091
+"655","Tomato Big(Nepali)",2014-04-01,31.4347826086957
+"656","Tomato Big(Nepali)",2014-05-01,22.6521739130435
+"657","Tomato Big(Nepali)",2014-06-01,25.56
+"658","Tomato Big(Nepali)",2014-07-01,26.2258064516129
+"659","Tomato Big(Nepali)",2014-08-01,49.4827586206897
+"660","Tomato Big(Nepali)",2014-09-01,54.8
+"661","Tomato Big(Nepali)",2014-10-01,44.5
+"662","Tomato Big(Nepali)",2014-11-01,32.3833333333333
+"663","Tomato Big(Nepali)",2014-12-01,39.6206896551724
+"664","Tomato Big(Nepali)",2015-01-01,33.625
+"665","Tomato Big(Nepali)",2015-02-01,28.3
+"666","Tomato Big(Nepali)",2015-03-01,38.7407407407407
+"667","Tomato Big(Nepali)",2015-04-01,38.4642857142857
+"668","Tomato Big(Nepali)",2015-05-01,50.45
+"669","Tomato Big(Nepali)",2015-06-01,44.0166666666667
+"670","Tomato Big(Nepali)",2015-07-01,55.4838709677419
+"671","Tomato Big(Nepali)",2015-08-01,44.6612903225806
+"672","Tomato Big(Nepali)",2015-09-01,35.4833333333333
+"673","Tomato Big(Nepali)",2015-10-01,43.5322580645161
+"674","Tomato Big(Nepali)",2015-11-01,69.3166666666667
+"675","Tomato Big(Nepali)",2015-12-01,52.4193548387097
+"676","Tomato Big(Nepali)",2016-01-01,44.5645161290323
+"677","Tomato Big(Nepali)",2016-02-01,38.8965517241379
+"678","Tomato Big(Nepali)",2016-03-01,36.5344827586207
+"679","Tomato Big(Nepali)",2016-04-01,32.95
+"680","Tomato Big(Nepali)",2016-05-01,52.0645161290323
+"681","Tomato Big(Nepali)",2016-06-01,59.2307692307692
+"682","Tomato Big(Nepali)",2016-07-01,73.8387096774194
+"683","Tomato Big(Nepali)",2016-08-01,50.6935483870968
+"684","Tomato Big(Nepali)",2016-09-01,42.5
+"685","Tomato Big(Nepali)",2016-10-01,47.9032258064516
+"686","Tomato Big(Nepali)",2016-11-01,38.2166666666667
+"687","Tomato Big(Nepali)",2016-12-01,34.241935483871
+"688","Tomato Big(Nepali)",2017-01-01,30.8064516129032
+"689","Tomato Big(Nepali)",2017-02-01,28.4259259259259
+"690","Tomato Big(Nepali)",2017-03-01,27.1551724137931
+"691","Tomato Big(Nepali)",2017-04-01,29.4166666666667
+"692","Tomato Big(Nepali)",2017-05-01,35.9166666666667
+"693","Tomato Big(Nepali)",2017-06-01,44.1071428571429
+"694","Tomato Big(Nepali)",2017-07-01,43.4166666666667
+"695","Tomato Big(Nepali)",2017-08-01,78.2352941176471
+"696","Tomato Big(Nepali)",2017-09-01,58.8793103448276
+"697","Tomato Big(Nepali)",2017-10-01,60.241935483871
+"698","Tomato Big(Nepali)",2017-11-01,87.6666666666667
+"699","Tomato Big(Nepali)",2017-12-01,66.1458333333333
+"700","Tomato Big(Nepali)",2018-01-01,41.7166666666667
+"701","Tomato Big(Nepali)",2018-02-01,37.6785714285714
+"702","Tomato Big(Nepali)",2018-03-01,39.55
+"703","Tomato Big(Nepali)",2018-04-01,38.55
+"704","Tomato Big(Nepali)",2018-05-01,37.0161290322581
+"705","Tomato Big(Nepali)",2018-06-01,52.4038461538462
+"706","Tomato Big(Nepali)",2018-07-01,39.8076923076923
+"707","Tomato Big(Nepali)",2018-08-01,48.8333333333333
+"708","Tomato Big(Nepali)",2018-09-01,40.7666666666667
+"709","Tomato Big(Nepali)",2018-10-01,39.8387096774194
+"710","Tomato Big(Nepali)",2018-11-01,31.3666666666667
+"711","Tomato Big(Nepali)",2018-12-01,39.1129032258064
+"712","Tomato Big(Nepali)",2019-01-01,53.9838709677419
+"713","Tomato Big(Nepali)",2019-02-01,47.5
+"714","Tomato Big(Nepali)",2019-03-01,54.6666666666667
+"715","Tomato Big(Nepali)",2019-04-01,52.5
+"716","Tomato Big(Nepali)",2019-05-01,78.3064516129032
+"717","Tomato Big(Nepali)",2019-06-01,70.4310344827586
+"718","Tomato Big(Nepali)",2019-07-01,79.3333333333333
+"719","Tomato Big(Nepali)",2019-08-01,79.3548387096774
+"720","Tomato Big(Nepali)",2019-09-01,52.0833333333333
+"721","Tomato Big(Nepali)",2019-10-01,80.0833333333333
+"722","Tomato Big(Nepali)",2019-11-01,71.75
+"723","Tomato Big(Nepali)",2019-12-01,54.3548387096774
+"724","Tomato Big(Nepali)",2020-01-01,64.6774193548387
+"725","Tomato Big(Nepali)",2020-02-01,48.5344827586207
+"726","Tomato Big(Nepali)",2020-03-01,48.2758620689655
+"727","Tomato Big(Nepali)",2020-04-01,38.5
+"728","Tomato Big(Nepali)",2020-05-01,27.5
+"729","Tomato Big(Nepali)",2020-08-01,74.3181818181818
+"730","Tomato Big(Nepali)",2020-09-01,92.5862068965517
+"731","Tomato Big(Nepali)",2020-10-01,61.7391304347826
+"732","Tomato Big(Nepali)",2020-11-01,66.25
+"733","Tomato Big(Nepali)",2020-12-01,62.9838709677419
+"734","Tomato Big(Nepali)",2021-01-01,46.5
+"735","Tomato Big(Nepali)",2021-02-01,50.2777777777778
+"736","Tomato Big(Nepali)",2021-03-01,46.3461538461538
+"737","Tomato Big(Nepali)",2021-04-01,53.125
+"738","Tomato Big(Nepali)",2021-05-01,50.9722222222222
+"739","Tomato Big(Nepali)",2021-06-01,55
+"740","Tomato Big(Nepali)",2021-07-01,55
+"741","Tomato Big(Nepali)",2021-08-01,55
+"742","Tomato Big(Nepali)",2021-09-01,55
+"743","Tomato Big(Nepali)",2021-10-01,55
+"744","Tomato Big(Nepali)",2021-11-01,55
+"745","Tomato Big(Nepali)",2021-12-01,55
+"746","Tomato Big(Nepali)",2022-01-01,55
+"747","Tomato Big(Nepali)",2022-02-01,55
+"748","Tomato Big(Nepali)",2022-03-01,55
+"749","Tomato Big(Nepali)",2022-04-01,55
+"750","Tomato Big(Nepali)",2022-05-01,55
+"751","Tomato Big(Nepali)",2022-06-01,55
+"752","Tomato Big(Nepali)",2022-07-01,55
+"753","Tomato Big(Nepali)",2022-08-01,55
+"754","Tomato Big(Nepali)",2022-09-01,55
+"755","Tomato Big(Nepali)",2022-10-01,55
+"756","Tomato Big(Nepali)",2022-11-01,55
+"757","Tomato Big(Nepali)",2022-12-01,55
+"758","Tomato Big(Nepali)",2023-01-01,55
+"759","Tomato Big(Nepali)",2023-02-01,55
+"760","Tomato Big(Nepali)",2023-03-01,55
+"761","Tomato Big(Nepali)",2023-04-01,55
+"762","Tomato Big(Nepali)",2023-05-01,55
+"763","Tomato Big(Nepali)",2023-06-01,55
+"764","Tomato Big(Nepali)",2023-07-01,55
+"765","Tomato Big(Nepali)",2023-08-01,55
+"766","Tomato Big(Nepali)",2023-09-01,55
+"767","Tomato Big(Nepali)",2023-10-01,55
+"768","Tomato Big(Nepali)",2023-11-01,55
+"769","Tomato Big(Nepali)",2023-12-01,55
+"770","Tomato Big(Nepali)",2024-01-01,55
+"771","Tomato Big(Nepali)",2024-02-01,55
+"772","Tomato Big(Nepali)",2024-03-01,55
+"773","Tomato Big(Nepali)",2024-04-01,55
+"774","Tomato Big(Nepali)",2024-05-01,55
+"775","Tomato Big(Nepali)",2024-06-01,55
+"776","Tomato Big(Nepali)",2024-07-01,55
+"777","Tomato Big(Nepali)",2024-08-01,55
+"778","Tomato Big(Nepali)",2024-09-01,55
+"779","Tomato Big(Nepali)",2024-10-01,55
+"780","Tomato Big(Nepali)",2024-11-01,55
+"781","Tomato Big(Nepali)",2024-12-01,55
+"782","Tomato Big(Nepali)",2025-01-01,55
+"783","Tomato Big(Nepali)",2025-02-01,55
+"784","Tomato Big(Nepali)",2025-03-01,55
+"785","Tomato Big(Nepali)",2025-04-01,55
+"786","Tomato Big(Nepali)",2025-05-01,55
+"787","Tomato Big(Nepali)",2025-06-01,55
+"788","Tomato Big(Nepali)",2025-07-01,55
+"789","Tomato Big(Nepali)",2025-08-01,55
+"790","Tomato Big(Nepali)",2025-09-01,55
+"791","Tomato Big(Nepali)",2025-10-01,55
+"792","Tomato Big(Nepali)",2025-11-01,55
+"793","Tomato Big(Nepali)",2025-12-01,55
+"794","Tomato Big(Nepali)",2026-01-01,55
+"795","Tomato Big(Nepali)",2026-02-01,55
+"796","Tomato Big(Nepali)",2026-03-01,55
+"797","Tomato Big(Nepali)",2026-04-01,55
+"798","Tomato Big(Nepali)",2026-05-01,55
