@@ -1,4 +1,314 @@
 """
+Kalimati Fruit & Vegetable Market Date Range Scraper
+====================================================
+Scrapes daily wholesale prices from https://kalimatimarket.gov.np/price
+across a specified AD date range, translates fields to English, and saves to CSV.
+"""
+
+import csv
+import logging
+import os
+import sys
+import time
+from datetime import date, timedelta
+
+import requests
+from bs4 import BeautifulSoup
+
+# ─── Check dependency for BS/AD date conversion ──────────────────────────────
+try:
+    import nepali_datetime
+except ImportError:
+    sys.exit(
+        "❌ Please install required packages:\n"
+        "   pip install requests beautifulsoup4 nepali-datetime"
+    )
+
+# ── Logging Setup ────────────────────────────────────────────────────────────
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s  %(levelname)s  %(message)s",
+    handlers=[
+        logging.FileHandler("kalimati_scraper.log", encoding="utf-8"),
+        logging.StreamHandler(sys.stdout),
+    ],
+)
+log = logging.getLogger(__name__)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CONFIGURATION (Adjust your date range here)
+# ─────────────────────────────────────────────────────────────────────────────
+START_DATE_AD = date(2026, 5, 14)   # Start date (YYYY, MM, DD)
+END_DATE_AD   = date(2026, 8, 20)   # End date inclusive
+
+OUTPUT_CSV = "kalimati_prices_range.csv"
+ERRORS_CSV = "kalimati_errors_range.csv"
+
+DELAY_SECONDS = 1.2   # Polite crawl delay between requests
+PRICE_URL     = "https://kalimatimarket.gov.np/price"
+
+# ─── Digit & Currency Conversion ─────────────────────────────────────────────
+_NP_DIGIT_TABLE = str.maketrans("०१२३४५६७८९", "0123456789")
+
+def devanagari_to_ascii(text: str) -> str:
+    """Translate Devanagari digits to English digits and strip currency/commas."""
+    return text.replace("रू", "").replace(",", "").strip().translate(_NP_DIGIT_TABLE)
+
+def parse_price(text: str) -> float | str:
+    """Convert price string to a clean float, return empty string if invalid."""
+    cleaned = devanagari_to_ascii(text)
+    try:
+        return float(cleaned)
+    except ValueError:
+        return ""
+
+# ─── Translation Dictionaries ────────────────────────────────────────────────
+COMMODITY_MAP: dict[str, str] = {
+    "गोलभेडा ठूलो(नेपाली)":     "Large Tomato (Nepali)",
+    "गोलभेडा ठूलो(भारतीय)":     "Large Tomato (Indian)",
+    "गोलभेडा सानो(लोकल)":        "Small Tomato (Local)",
+    "गोलभेडा सानो(टनेल)":        "Small Tomato (Tunnel)",
+    "गोलभेडा सानो(भारतीय)":     "Small Tomato (Indian)",
+    "गोलभेडा सानो(तराई)":        "Small Tomato (Terai)",
+    "आलु रातो(लाम्चो)":          "Red Potato (Long)",
+    "आलु रातो(भारतीय)":          "Red Potato (Indian)",
+    "रातो आलु(गोलो)":            "Red Potato (Round)",
+    "आलु सेतो(मुस्ताङ)":         "White Potato (Mustang)",
+    "आलु सेतो(भारतीय)":          "White Potato (Indian)",
+    "प्याज सुकेको (भारतीय)":     "Dried Onion (Indian)",
+    "प्याज सुकेको (नेपाली)":     "Dried Onion (Nepali)",
+    "प्याज हरियो":               "Green Onion",
+    "लसुन हरियो":                "Green Garlic",
+    "लसुन सुकेको चाइनिज":        "Dried Garlic (Chinese)",
+    "लसुन सुकेको नेपाली":        "Dried Garlic (Nepali)",
+    "गाजर(लोकल)":                "Carrot (Local)",
+    "गाजर(भारतीय)":              "Carrot (Indian)",
+    "मूला रातो":                 "Red Radish",
+    "मूला सेतो(लोकल)":           "White Radish (Local)",
+    "सेतो मूला(हाइब्रीड)":       "White Radish (Hybrid)",
+    "गान्टे मूला":                "Turnip",
+    "चुकुन्दर":                  "Beetroot",
+    "सखरखण्ड":                   "Sweet Potato",
+    "पिंडालू":                   "Taro Root",
+    "अदुवा":                    "Ginger",
+    "रायो साग":                  "Mustard Greens",
+    "पालूगो साग":                "Spinach",
+    "चमसूरको साग":               "Garden Cress",
+    "तोरीको साग":                "Rape Greens",
+    "मेथीको साग":                "Fenugreek Leaves",
+    "जिरीको साग":                "Dill Greens",
+    "सौफको साग":                 "Fennel Greens",
+    "पुदीना":                    "Mint",
+    "हरियो धनिया":               "Fresh Coriander",
+    "न्यूरो":                    "Fiddlehead Fern",
+    "सजिवन":                    "Moringa / Drumstick Leaves",
+    "बन्दा(लोकल)":               "Cabbage (Local)",
+    "रातो बन्दा":                "Red Cabbage",
+    "काउली स्थानिय":            "Cauliflower (Local)",
+    "ब्रोकाउली":                 "Broccoli",
+    "भन्टा लाम्चो":              "Brinjal (Long)",
+    "भन्टा डल्लो":              "Brinjal (Round)",
+    "बोडी(तने)":                 "Yard Long Bean",
+    "मकै बोडी":                  "Corn Bean",
+    "घिउ सिमी(लोकल)":           "Butter Bean (Local)",
+    "घिउ सिमी(हाइब्रीड)":       "Butter Bean (Hybrid)",
+    "घिउ सिमी(राजमा)":          "Kidney Bean",
+    "टाटे सिमी":                 "Flat Bean",
+    "मटरकोशा":                  "Pea Pod",
+    "भटमासकोशा":                 "Soybean Pod",
+    "लौका":                      "Bottle Gourd",
+    "फर्सी पाकेको":              "Ripe Pumpkin",
+    "फर्सी हरियो(लाम्चो)":       "Green Pumpkin (Long)",
+    "हरियो फर्सी(डल्लो)":        "Green Pumpkin (Round)",
+    "परवर(लोकल)":                "Pointed Gourd (Local)",
+    "परवर(तराई)":                "Pointed Gourd (Terai)",
+    "चिचिण्डो":                  "Snake Gourd",
+    "घिरौला":                    "Sponge Gourd",
+    "झिगूनी":                   "Ridge Gourd",
+    "तितो करेला":                "Bitter Gourd",
+    "स्कूस":                     "Chayote",
+    "भिण्डी":                    "Okra / Lady Finger",
+    "कुरीलो":                    "Asparagus",
+    "खु्र्सानी सुकेको":          "Dried Chili",
+    "खुर्सानी सुकेको":           "Dried Chili",
+    "खुर्सानी हरियो(लाम्चो)":    "Green Chili (Long)",
+    "खुर्सानी हरियो(बुलेट)":     "Green Chili (Bullet)",
+    "खुर्सानी हरियो(माछे)":      "Green Chili (Mache)",
+    "भेडे खु्र्सानी":            "Bell Pepper",
+    "भेडे खुर्सानी":             "Bell Pepper",
+    "च्याउ(कन्य)":               "Oyster Mushroom",
+    "च्याउ(डल्ले)":              "Button Mushroom",
+    "राजा च्याउ":                "King Oyster Mushroom",
+    "सिताके च्याउ":              "Shiitake Mushroom",
+    "तामा":                      "Bamboo Shoot",
+    "तोफु":                      "Tofu",
+    "गुन्दुक":                  "Gundruk (Fermented Greens)",
+    "इमली":                      "Tamarind",
+    "छ्यापी सुकेको":             "Dried Timur (Szechuan Pepper)",
+    "सेलरी":                    "Celery",
+    "पार्सले":                  "Parsley",
+    "स्याउ(झोले)":               "Apple (Jhole)",
+    "स्याउ(फूजी)":               "Apple (Fuji)",
+    "केरा(नेपाली)":              "Banana (Nepali)",
+    "केरा(मालभोग)":              "Banana (Malbhog)",
+    "कागती":                    "Lemon",
+    "अनार":                      "Pomegranate",
+    "अंगुर(हरियो)":              "Grape (Green)",
+    "अंगुर(कालो)":               "Grape (Black)",
+    "तरबुजा(हरियो)":            "Watermelon",
+    "भुई कटहर":                 "Ground Jackfruit",
+    "रुख कटहर":                 "Tree Jackfruit",
+    "काक्रो(लोकल)":              "Cucumber (Local)",
+    "काक्रो(हाइब्रीड)":          "Cucumber (Hybrid)",
+    "काक्रो(लोकलक्रस)":          "Cucumber (Local Cross)",
+    "मेवा(नेपाली)":              "Papaya (Nepali)",
+    "मेवा(भारतीय)":              "Papaya (Indian)",
+    "लीच्ची(लोकल)":              "Lychee (Local)",
+    "आभोकाडो":                  "Avocado",
+    "नरिवल(काँचो)":              "Coconut (Raw)",
+    "नरिवल(हरियो)":              "Coconut (Green)",
+    "आँप(दसहरी)":                "Mango (Dasheri)",
+    "आँप(मालदह)":                "Mango (Malda)",
+    "आँप(लोकल)":                 "Mango (Local)",
+    "ताजा माछा(रहु)":           "Fresh Fish (Rohu)",
+    "ताजा माछा(बचुवा)":          "Fresh Fish (Bachwa)",
+    "ताजा माछा(छडी)":           "Fresh Fish (Chhadi)",
+}
+
+UNIT_MAP: dict[str, str] = {
+    "के.जी.": "KG",
+    "केजी":   "KG",
+    "के जी":  "KG",
+    "किलो":   "KG",
+    "दर्जन":  "Dozen",
+    "प्रति गोटा": "Per Piece",
+    "गोटा":   "Piece",
+    "मुठा":   "Bundle",
+}
+
+def translate_commodity(raw: str) -> str:
+    return COMMODITY_MAP.get(raw.strip(), raw.strip())
+
+def translate_unit(raw: str) -> str:
+    return UNIT_MAP.get(raw.strip(), raw.strip())
+
+# ─── Helper to build a browser-like session ──────────────────────────────────
+def build_session() -> requests.Session:
+    s = requests.Session()
+    s.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    })
+    return s
+
+def fetch_date_page(session: requests.Session, ad_date_str: str) -> requests.Response | None:
+    url = f"{PRICE_URL}?date={ad_date_str}"
+    try:
+        r = session.get(url, timeout=30)
+        if r.status_code == 200:
+            return r
+    except requests.RequestException as e:
+        log.warning("Request failed for %s: %s", ad_date_str, e)
+    return None
+
+def parse_table(response: requests.Response, ad_date: date, bs_date_str: str) -> list[dict]:
+    soup = BeautifulSoup(response.content, "html.parser")
+    table = soup.find("table")
+    if not table:
+        return []
+
+    rows = table.find_all("tr")
+    records = []
+
+    for row in rows[1:]:  # Skip header row
+        cols = [td.get_text(strip=True) for td in row.find_all("td")]
+        if len(cols) < 4:
+            continue
+
+        if len(cols) == 4:
+            commodity_raw, min_raw, max_raw, avg_raw = cols
+            unit_raw = ""
+        else:
+            commodity_raw, unit_raw, min_raw, max_raw, avg_raw = cols[:5]
+
+        records.append({
+            "date_ad": str(ad_date),
+            "date_bs": bs_date_str,
+            "commodity": translate_commodity(commodity_raw),
+            "unit": translate_unit(unit_raw),
+            "min_price": parse_price(min_raw),
+            "max_price": parse_price(max_raw),
+            "avg_price": parse_price(avg_raw),
+            "commodity_np": commodity_raw
+        })
+
+    return records
+
+# ─── Main Execution Loop ─────────────────────────────────────────────────────
+def main():
+    log.info("Starting Kalimati Range Scraper from %s to %s", START_DATE_AD, END_DATE_AD)
+
+    out_f = open(OUTPUT_CSV, "w", newline="", encoding="utf-8")
+    err_f = open(ERRORS_CSV, "w", newline="", encoding="utf-8")
+
+    fieldnames = ["date_ad", "date_bs", "commodity", "unit", "min_price", "max_price", "avg_price", "commodity_np"]
+    err_fields  = ["date_ad", "reason"]
+
+    writer = csv.DictWriter(out_f, fieldnames=fieldnames)
+    errs   = csv.DictWriter(err_f, fieldnames=err_fields)
+
+    writer.writeheader()
+    errs.writeheader()
+
+    session = build_session()
+    current_ad = START_DATE_AD
+    total_days = (END_DATE_AD - START_DATE_AD).days + 1
+    scraped_count = 0
+    error_count = 0
+
+    try:
+        while current_ad <= END_DATE_AD:
+            ad_str = str(current_ad)
+            
+            # Convert AD date to Bikram Sambat (BS) string format
+            bs_obj = nepali_datetime.date.from_datetime_date(current_ad)
+            bs_str = f"{bs_obj.year}-{bs_obj.month:02d}-{bs_obj.day:02d}"
+
+            log.info("Scraping AD: %s (BS: %s)...", ad_str, bs_str)
+
+            response = fetch_date_page(session, ad_str)
+            if not response:
+                errs.writerow({"date_ad": ad_str, "reason": "fetch_failed"})
+                error_count += 1
+            else:
+                records = parse_table(response, current_ad, bs_str)
+                if not records:
+                    log.warning("  -> No price records found for %s", ad_str)
+                    errs.writerow({"date_ad": ad_str, "reason": "no_data"})
+                    error_count += 1
+                else:
+                    for rec in records:
+                        writer.writerow(rec)
+                    out_f.flush()
+                    log.info("  -> Saved %d items", len(records))
+                    scraped_count += 1
+
+            time.sleep(DELAY_SECONDS)
+            current_ad += timedelta(days=1)
+
+    except KeyboardInterrupt:
+        log.info("Scraping interrupted by user. Progress has been saved.")
+    finally:
+        out_f.close()
+        err_f.close()
+
+    log.info("=" * 50)
+    log.info("Finished! Successful dates: %d | Errors/Missing: %d", scraped_count, error_count)
+    log.info("Output saved to: %s", os.path.abspath(OUTPUT_CSV))
+
+if __name__ == "__main__":
+    main()"""
 Kalimati Fruit & Vegetable Market Price Scraper
 ================================================
 Scrapes daily wholesale prices from https://kalimatimarket.gov.np/price
