@@ -1,3 +1,38 @@
 have cleaned the kalimati data and combined data provided by professor and scraped one
 have done monthly average in kalimati monthly of chosen targeted six produces
 have combined all the data of cpi,crude oil, foreign exchange, fertilizer urea and DAP from 2013/01/07 to 2025/12/1
+new:
+Data from following source is collected as per help of saugat and Hemant :
+https://www.investing.com/currencies/usd-npr-historical-data   -- exchange rates 
+https://noc.org.np/retailprice  -- fuel prices
+Source: Compiled from the official monthly Current Macroeconomic and Financial Situation Reports published by the Research Department of the Nepal Rastra Bank (NRB), spanning multiple base-year revisions (2005/06, 2014/15, and 2023/24).  --- CPI data 
+data of fertilizer: https://thedocs.worldbank.org/en/doc/18675f1d1639c7a34d463f59263ba0a2-0050012025/related/CMO-Historical-Data-Monthly.xlsx
+data for crude oil: 
+fred.stlouisfed.org/series/DCOILBRENTEU
+data for kalimati produces: 
+https://kalimatimarket.gov.np/price
+data is collected with aim of 2026 july or June , previously there was data up to 2025 dec i.e
+
+Variable	End Date
+Kalimati prices	2026 May 27
+CPI	2026 mid-April
+Exchange rate	2026 May 1
+Brent crude	2026 Jul 27
+Fertilizer (Pink Sheet)	2025 December ← limiting factor
+Diesel/Petrol	2026 April 30
+
+But for this we had to reload the data again of kalimati,cpi,exchange rate,fertilizer and diesel to June 
+For this 
+cpi is data collected using NRB reports using AI 
+fertilizer data is collected from the same source i.e pink sheet of world bank 
+kalimati data is scraped and used new script for scraping it 
+for exchange rate same link/source is used
+
+now for macro clean we are taking all the data in more clean and well managed way in one csv ,,,,and it was lately only upto the 2025 dec but should expand to 2026 july or June 
+and 
+lets discuss about the macro : DAP and Urea will be used for fertilizer and inflstion rate is used as CPI , oil_price is price of crude oil and exchange rate is used as FX 
+ 
+And while scraping more of kalimati data there was anamoly like à¤®à¤¾à¤›à¤¾ à¤¸à¥à¤•à¥‡à¤•à¥‹ on some of the produces name..so used claude for it to solve it 
+The fuel price provided by hemant and saugat is combined using a small code 
+And the kalimati new data is also combined using the last code used
+And also the extra exchange rate data is filtered by averaging it monthly using small blosk of code of resample
