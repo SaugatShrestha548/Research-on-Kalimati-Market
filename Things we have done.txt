@@ -35,3 +35,6 @@ And also the extra exchange rate data is filtered by averaging it monthly using 
 And then macro dataset is build by filtering and doing necessary data cleaning and choosing data from 2013/07/01 to 2026/07/01
 And after this saugat have done master_clean by combining kalimati_monthly data with the macro and its was done using left_join and the each data is repeated..we have not done separate column for separate produces….
 and then war dummy variables and coivd variable is added it is just yes and no, i.e 0 and 1 for dates it started and stopped and afte that we also aaded ITS, interrupted time series variable extra three..inorder to count months after the wars in order to compare the price fluctuations..
+akish has done the report on methodlogy
+anurag has done the visualization of the prices of the 6 commodities and posted it 
+saugat has posted the descriptive analysis of the 6 commodities according to before and after war and also posted the rolling SD and its chart 
